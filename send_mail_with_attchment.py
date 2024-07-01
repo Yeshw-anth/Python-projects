@@ -5,12 +5,12 @@ from email.mime.base import MIMEBase
 from email import encoders
 import os #to read files from your local system
 
-From = "poojach207@gmail.com" #enter your gmail username
+From = "abc@gmail.com" #enter your gmail username
 app_passcode = "jrexkmgxzdswslpg" #enter your gmail app passcode
-to = 'pooja@codegnan.com' #enter to whom you want to send
+to = 'xyz@codegnan.com' #enter to whom you want to send
 subject = "Mail with attachment"
 text = "Sample test mail for attachment sending" #body of mail
-attach = 'doremon.jpg' #give your attachment name
+attach = '/attachment_name.jpg' #give your attachment name
 msg = MIMEMultipart()
 msg['From'] = From
 msg['To'] = to
